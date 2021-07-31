@@ -5,6 +5,7 @@
 function createVehicleForPlayer(player, command, model)
     local x, y, z = getElementPosition(player)
     createVehicle(model, x, y + 5, z)
+    outputChatBox("Mashin Ba Hash Code >> "..model.." << Sakhte Shode")
 end
 
 -- Commands For Spawing Car
@@ -35,7 +36,7 @@ function loopVehicles(p)
 	end
 end
 -- Commands For Deleting Cars
-addCommandHandler ("dv", loopVehicles)
+addCommandHandler ("dvall", loopVehicles)
 addCommandHandler ("deletevehicles", loopVehicles)
 
 
