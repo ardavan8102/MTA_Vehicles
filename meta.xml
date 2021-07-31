@@ -1,0 +1,4 @@
+<meta>
+    <info author="Ardavan81" version="1.0" type="script" />
+    <script src="vehicles.lua" type="server" />
+</meta>
